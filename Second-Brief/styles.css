@@ -1,0 +1,106 @@
+*{
+    padding: 1px;
+    margin: 5px;
+}
+
+/*width: 97%;*/
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border: solid red;
+    width: 97%;
+    
+    
+}
+
+.amazon{
+    display: flex;
+    align-items: center;
+}
+
+.amazon img{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+.amazon input{
+    width: 400px;
+    height: 30px;
+    border-color: gray;
+    border-radius: 10px; 
+}
+
+.b1{
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    border:none;
+    border-right: solid 2px grey;
+    padding-right: 15px;
+    height: 50px;
+    margin-left: 1000px;
+}
+
+.b2{
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    border:none;
+    padding-right: 15px;
+    height: 50px;
+    
+}
+
+
+.Drapeau img{
+    display: flex;
+    width: 60px;
+    margin:0px 0px 0px -50px;
+}
+
+p{
+    font-size: 20px;
+    display: flex;
+    margin:0px 0px 0px -40px;
+    justify-content: space-between;
+}
+
+
+.b1,
+.b2,
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: space-around;
+}
+
+.panier{
+    margin:0px 0px 0px 0px;
+}
+
+
+
+section {
+    padding: 10px;
+    justify-items: center;
+    display: flex;
+    align-items: center;
+    justify-items: space-between;
+    margin-top: 50px;
+    border: 100px;
+}
+
+section button{
+    display:flex;
+    flex-direction: column;
+    margin-right: 400px;
+    margin-left: 10px;
+    background-color: transparent;
+    width: 900px;
+
+}
+
+.img1{
+    margin: 0px 0px 0px -320px;
+}
