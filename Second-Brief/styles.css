@@ -3,14 +3,13 @@
     margin: 5px;
 }
 
-/*width: 97%;*/
+
 header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    border: solid red;
     width: 97%;
     
     
