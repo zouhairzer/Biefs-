@@ -1,0 +1,62 @@
+*{
+    padding: 5pcx;
+    margin: 5px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+header button{
+    border: none;
+    background-color: rgb(254, 254, 254);
+}
+
+.Acc{
+    margin-top: 50px;
+    display: flex;
+    padding-left: 10px;
+    flex-direction: r;
+}
+
+.Accessoires{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: solid grey 1px;
+    width: 40%;
+    border-bottom: none;
+    margin-right:10%;
+}
+
+.el {
+    display: flex;
+    align-items: center;
+    border-bottom: solid 1px grey;
+    width:100%;
+    margin: 0PX;
+    min-height: 50px;
+}
+
+.Products{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.Product1{
+   width: 20%;
+   align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.BestRemis img{
+    width: 100%;
+}
